@@ -1,0 +1,43 @@
+Core Java:
+
+- WORA: Write Once Run Anywhere
+- Platform Independent or portable
+
+Platform = Hardware + O/S
+
+JDK: Java Development Kit
+JRE: Java Runtime Environment
+
+Source Code (.java) ---> Compiler ---> Byte Code/Intermediate Code (.class)
+
+Byte Code ---> Interpreter (JRE) ---> Machine Code
+
+Byte Code: It is not a source code and not a machine code, it is intremediate 
+code.
+
+JRE: JRE read byte code and converted it into machine code.
+
+Java is Open Source:
+
+- Java onwards 14 version not open source
+
+Where Java is Used?
+
+- Enterprise Applications: Banking Solutions
+- Security 
+- Transactions
+
+Loan, CASA, Insurance etc
+
+IDE:
+
+1. VS Code
+2. Eclipse
+
+- Compile the Code
+javac filename.java
+
+- Run Code
+java(JRE) class name / byte code
+
+
