@@ -1,0 +1,3 @@
+- Java doesn't have any garbage value
+- It throws error
+- Local Variables must be initialized before use

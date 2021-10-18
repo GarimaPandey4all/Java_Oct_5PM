@@ -53,7 +53,7 @@ What is String?
 
 What is System.out.println();
 
-- println(): print in new lin, println comes from out object
+- println(): print in new line, println comes from out object
 - out: out is an predefined object, which belongs to PrintStream class
 - System: System is a predefined class used for input, output and error
 e.g: System.in, System.out, System.err
