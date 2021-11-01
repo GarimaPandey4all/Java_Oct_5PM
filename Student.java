@@ -8,9 +8,31 @@ public class Student {
 	private String phone;
 	private String course;
 	private double fees;
+	private String collegeName;
+	
+	//default constructor
+	Student()
+	{
+		//constructor chaining
+		//this(1001, "Ram", "3928958989", "MCA", 10000.0); // call to the parameterized cons
+		collegeName = "SRCC";
+	}
+	
+	//parameterized constructor
+	Student(int rollno, String name, String phone, String course, double fees)
+	{
+		//constructor chaining
+		this(); // call to the default constructor
+		this.rollno = rollno;
+		this.name = name;
+		this.phone = phone;
+		this.course = course;
+		this.fees = fees;
+	}
 	
 //	r, n, p, c, f - local variables
 	//public void takeInput(int r, String n, String p, String c, double f)
+	/*
 	public void takeInput(int rollno, String name, String phone, String course, double fees)
 	{
 		//instance variable = local variable
@@ -20,6 +42,7 @@ public class Student {
 		this.course = course;
 		this.fees = fees;
 	}
+	*/
 	
 	public void print()
 	{
@@ -28,14 +51,16 @@ public class Student {
 		System.out.println("Phone is: "+phone);
 		System.out.println("Course is: "+course);
 		System.out.println("Fees is: "+fees);
+		System.out.println("College Name is: "+collegeName);
 	}
 
 	//method , member function
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Student ram = new Student(); // ram - reference variable
-		ram.takeInput(1001, "Ram", "3928958989", "MCA", 10000.0);
+		//Student ram = new Student();
+		Student ram = new Student(1001, "Ram", "3928958989", "MCA", 10000.0); // ram - reference variable
+		//ram.takeInput(1001, "Ram", "3928958989", "MCA", 10000.0);
 		ram.print();
 		
 		/*
