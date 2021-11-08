@@ -18,6 +18,16 @@ public class Student {
 		collegeName = "SRCC";
 	}
 	
+	//getter
+	public String getPhone() {
+		return phone;
+	}
+
+	//setter
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
 	//parameterized constructor
 	Student(int rollno, String name, String phone, String course, double fees)
 	{
@@ -61,6 +71,8 @@ public class Student {
 		//Student ram = new Student();
 		Student ram = new Student(1001, "Ram", "3928958989", "MCA", 10000.0); // ram - reference variable
 		//ram.takeInput(1001, "Ram", "3928958989", "MCA", 10000.0);
+		ram.print();
+		ram.setPhone("23746876346");
 		ram.print();
 		
 		/*
