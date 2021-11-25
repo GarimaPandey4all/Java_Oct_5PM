@@ -20,8 +20,18 @@ class Enemy
 
 public class StaticUse {
 
+	static void print()
+	{
+		main(null);
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		//StackOverflow
+		//main(null);
+		
+		print(); // function calling
 		
 		for(int i = 1; i <= 10; i++)
 		{

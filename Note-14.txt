@@ -1,0 +1,15 @@
+Memory Management
+
+- Stack: Static Memory Allocation
+- Heap: Dynamic Memory Allocation
+- Permspace is used to store static things and class
+- from java 8 permspace is removed and metaspace is introduced
+- Young generation and old generation
+- GC
+a) Minor GC
+b) Maos GC
+
+How to increase or decrease the size of stack and heap?
+
+Stack Size: -Xss200m
+Heap Size: -Xms200m -Xmx800m
